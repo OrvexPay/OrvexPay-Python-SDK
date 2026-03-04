@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orvexpay"
+version = "1.0.0"
+authors = [
+  { name="mkanbaz", email="mkanbaz@orvexpay.com" },
+]
+description = "Official Python SDK for the OrvexPay Payment Gateway."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "httpx>=0.23.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/OrvexPay/OrvexPay-Python-SDK"
+"Bug Tracker" = "https://github.com/OrvexPay/OrvexPay-Python-SDK/issues"
